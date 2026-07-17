@@ -1,0 +1,3 @@
+# Reported configuration(s) for 10-digit table row
+# Format: Nmin Mmax W depth timelimit_sec
+1 500 1 7 200

@@ -1,0 +1,23 @@
+# format_version=1
+# run_id=2:406837347793:2138068485451
+# id=2
+# s=406837347793
+# p=2138068485451
+# N=869846112020681247459643
+# sqrtN=932655409044
+# Nmin=1
+# Mmax=1000
+# W=500
+# depth=3
+# timelimit_sec=1000
+# status=TIMEOUT_NO_ROOTS
+# roots_found=0
+# fractions_tested=15796519
+# unique_fractions=15796520
+# build_time_sec=0.000000
+# search_time_sec=1000.000001
+# total_time_sec=1000.000007
+# stopped_reason=timeout_no_roots
+# error_message=
+run_id root_idx x0 root_x triplet_x0 triplet_x2 aF bF loop_i loop_dx offset frac_n frac_d level interval_L interval_R parent_L parent_R interval_examined_L interval_examined_R examined_pct frac_path
+0:0:0 0 0 0 0/1 0/1 0 0 0 0 0 0 0 0 0 0 0 0.0 -

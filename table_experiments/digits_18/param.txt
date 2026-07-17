@@ -1,0 +1,3 @@
+# Reported configuration(s) for 18-digit table row
+# Format: Nmin Mmax W depth timelimit_sec
+1 1000 500 3 200

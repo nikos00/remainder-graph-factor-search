@@ -1,0 +1,3 @@
+# Reported configuration(s) for 40-digit table row
+# Format: Nmin Mmax W depth timelimit_sec
+5 150 5000000 16 14400

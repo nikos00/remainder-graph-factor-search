@@ -1,0 +1,4 @@
+# Other explored depths for 45-digit row (depths 9,10; reported=11 in folder #1)
+# Format: Nmin Mmax W depth timelimit_sec
+1 400 1 9 10000
+1 300 1 10 10000
