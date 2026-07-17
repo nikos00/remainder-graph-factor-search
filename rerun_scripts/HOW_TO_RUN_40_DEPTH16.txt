@@ -1,0 +1,58 @@
+BCI 2026: 40 digits, depth 16
+================================
+
+Open a terminal and enter the kubuntu_rerun directory:
+
+    cd /path/to/kubuntu_rerun
+
+Recommended command for a laptop with 32 GB RAM:
+
+    WORKERS=1 ./run_missing_40_depth16.sh
+
+To run at most two tasks concurrently:
+
+    WORKERS=2 ./run_missing_40_depth16.sh
+
+All five prime-pair tasks will still be processed. WORKERS controls how many
+run at the same time; the remaining tasks wait in a queue.
+
+IMPORTANT MEMORY WARNING
+------------------------
+
+The five-task run had already allocated about 50 GB and memory was still
+growing when it was stopped. Therefore, 50 GB is not a known peak.
+
+Start with WORKERS=1. Monitor memory and stop the run if the system approaches
+its RAM limit or starts swapping heavily. Even one task may continue growing.
+
+Monitor memory:
+
+    watch -n 2 free -h
+
+Monitor the experiment processes:
+
+    watch -n 2 "ps -eo pid,ppid,%cpu,%mem,rss,etime,cmd --sort=-rss | head -20"
+
+Run unattended while preventing sleep (one concurrent task):
+
+    nohup systemd-inhibit --what=sleep --why="BCI 40 depth 16" \
+      env WORKERS=1 ./run_missing_40_depth16.sh \
+      > missing_40_depth16.console.log 2>&1 &
+
+Use WORKERS=2 in that command only after confirming that WORKERS=1 stays within
+safe memory limits.
+
+Follow the log:
+
+    tail -f missing_40_depth16.console.log
+
+Stop safely:
+
+    pgrep -af 'run_single_missing_experiment|run_par_exp|run_experiments_cli'
+
+Then send a normal termination signal to the launcher PID:
+
+    kill PID
+
+Replace PID with the actual launcher process number. Partial results remain in
+the timestamped directory under output/.

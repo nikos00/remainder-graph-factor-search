@@ -1,0 +1,16 @@
+digit,source_exp_folder,selected_pairs,copied_result_files,param_file,sp_file
+10,/home/netnick/python/notrees_v2_3/exp_ok/exp_10,5,135,param_dig.10.txt,s_p.10.txt
+12,/home/netnick/python/notrees_v2_3/exp_ok/exp_12,5,20,param_dig.12.txt,s_p.12.txt
+14,/home/netnick/python/notrees_v2_3/exp_ok/exp_14,5,20,param_dig.14.txt,s_p.14.txt
+16,/home/netnick/python/notrees_v2_3/exp_ok/exp_16,5,20,param_dig.16.txt,s_p.16.txt
+18,/home/netnick/python/notrees_v2_3/exp_ok/exp_18,5,20,param_dig.18.txt,s_p.18.txt
+20,/home/netnick/python/notrees_v2_3/exp_ok/exp_20,5,20,param_dig.20.txt,s_p.20.txt
+22,/home/netnick/python/notrees_v2_3/exp_ok/exp_22,5,20,param_dig.22.txt,s_p.22.txt
+24,/home/netnick/python/notrees_v2_3/exp_ok/exp_24,5,20,param_dig.24.txt,s_p.24.txt
+26,/home/netnick/python/notrees_v2_3/exp_ok/exp_26,5,20,param_dig.26.txt,s_p.26.txt
+28,/home/netnick/python/notrees_v2_3/exp_ok/exp_28,5,20,param_dig.28.txt,s_p.28.txt
+30,/home/netnick/python/notrees_v2_3/exp_ok/exp_30,5,20,param_dig.30.txt,s_p.30.txt
+35,/home/netnick/python/notrees_v2_3/exp_35,5,39,param_dig.35.txt,s_p.35.txt
+40,/home/netnick/python/flat_v2/exp_40,5,5,param_dig.40.txt,s_p.40.all_5.txt
+45,/home/netnick/python/Server exp/exp_45,5,20,param_dig.45.txt,s_p.45.generated.txt
+50,/home/netnick/python/flat_v2/exp_50,5,15,param_dig.50.txt,s_p.50.txt

@@ -1,0 +1,8 @@
+# Recovered original 45-digit parameters.
+# Cross-checked against python/Server exp/param_dig.45.txt and
+# python/results_csv/v3/digits_45/param_dig.45.txt.
+# Format: Nmin Mmax W depth timelimit_sec
+
+1 400 1 9 10000
+1 300 1 10 10000
+1 300 1 11 10000

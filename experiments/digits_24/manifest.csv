@@ -1,0 +1,11 @@
+digit,24
+source_exp_folder,/home/netnick/python/notrees_v2_3/exp_ok/exp_24
+param_file,param_dig.24.txt
+sp_file,s_p.24.txt
+
+selected_experiment_index,s,p,N_digits,copied_result_files
+1,133275217687,846812431447,24,4
+2,251190977189,1788960536879,24,4
+3,264973575551,3354595368679,24,4
+4,393179743639,2048787733393,24,4
+5,406837347793,2138068485451,24,4

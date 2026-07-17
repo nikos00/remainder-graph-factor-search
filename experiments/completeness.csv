@@ -1,0 +1,16 @@
+digits,paper_depths,paper_runtime_sec,expected_final_outputs,existing_final_outputs,existing_metadata,status,remaining_action
+10,2|3|4|7,200,45,45,45,complete,none
+12,2|3,200,10,10,10,complete,none
+14,2|3,200,10,10,10,complete,none
+16,2|3,200,10,10,10,complete,none
+18,2|3,200,10,10,10,complete,none
+20,2|3,200,10,10,10,complete,none
+22,2|3,1000,10,10,10,complete,none
+24,2|3,1000,10,10,10,complete,none
+26,2|3,1000,10,10,10,complete,none
+28,2|3,1000,10,10,10,complete,none
+30,2|3,1000,10,10,10,complete,none
+35,2|3|8|9|10,10000,25,25,24,complete,"none; depth-8 run completed 2026-07-15, artifacts in pending_results/exp_35_depth_8; one historical depth-9 output retained without metadata"
+40,16,10000,5,5,5,complete,"none; depth-16 run completed 2026-07-16 (14400s budget), artifacts in pending_results/exp_40_depth_16"
+45,9|10|11,10000,15,15,15,complete,"none; depth-11 run completed 2026-07-16, artifacts in pending_results/exp_45_depth_11"
+50,19,10000,5,5,5,complete,"none; 10000s run completed 2026-07-16, artifacts in pending_results/exp_50_depth_19_10000s; separate historical 7200s finals retained in digits_50/results"

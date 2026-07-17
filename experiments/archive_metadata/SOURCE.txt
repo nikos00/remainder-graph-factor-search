@@ -1,0 +1,8 @@
+created_date=2026-07-15
+source=C:\Users\nikos\Documents\old_disk_wsl_bci2026\python\results_csv\v3
+purpose=Non-destructive collection of surviving paper experiment artifacts plus pending destinations for missing configurations.
+initial_source_file_count=462
+initial_source_bytes=1227929
+initial_final_outputs=180
+initial_metadata_files=179
+initial_progress_files=10

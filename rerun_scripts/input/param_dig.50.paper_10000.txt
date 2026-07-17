@@ -1,0 +1,6 @@
+# Paper-aligned 50-digit configuration.
+# The recovered historical run used 7200 seconds; this new run uses the
+# manuscript's stated 10000-second budget.
+# Format: Nmin Mmax W depth timelimit_sec
+
+1 50000000000000 5 19 10000

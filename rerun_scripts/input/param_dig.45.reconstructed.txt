@@ -1,0 +1,10 @@
+# RECONSTRUCTED configuration: the original param_dig.45.txt was not recovered.
+# Known from paper: depths 9, 10, 11 and runtime budget 10000 seconds.
+# Inferred from the neighboring high-depth search: Nmin=1, Mmax=500, W=1.
+# Results must be labelled as a new reconstructed run, not an exact historical rerun.
+# Format: Nmin Mmax W depth timelimit_sec
+
+1 500 1 9 10000
+1 500 1 10 10000
+1 500 1 11 10000
+

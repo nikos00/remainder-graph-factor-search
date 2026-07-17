@@ -1,0 +1,8 @@
+# parameters.exp.txt
+# Format: Nmin Mmax W depth timelimit_sec
+
+5000 5500 1 6 9900
+5000 5500 1 8 9900
+5000 5500 1 10 9900
+25000 25500 3 8 9900
+925000 925500 3 8 9900
